@@ -1,0 +1,14 @@
+NJ Business Law Skills for Claude (v2, 2026-11-02)
+
+install/  - one ZIP per skill, ready to upload
+source/   - the editable skill folders (for customizing or putting on GitHub)
+
+Install on your own Claude account:
+  Customize > Skills > + > Create skill > Upload a skill > choose a ZIP from install/
+  Repeat for all four. Make sure Settings > Capabilities > "Create and edit files" is on.
+
+Install for a whole firm (Team/Enterprise owner):
+  Organization settings > Plugins & skills > Add > Upload a skill (each ZIP)
+
+Before relying on any output: deadlines are marked UNVERIFIED and citations
+[VERIFY CITE] until an attorney confirms them.
