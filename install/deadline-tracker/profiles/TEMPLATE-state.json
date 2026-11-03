@@ -1,0 +1,9 @@
+{
+  "name": "TEMPLATE — copy, rename, and fill in from the court's current rules",
+  "source": "[Rule cites] ; [Holiday calendar URL] ; verified by [attorney] on [date]",
+  "federal_holidays": true,
+  "extra_holidays": [],
+  "removed_holidays": [],
+  "roll_when_closed": true,
+  "service_extra_days": {"mail": 3, "personal": 0, "electronic": 0, "other": 0}
+}

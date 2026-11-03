@@ -1,0 +1,40 @@
+{
+  "name": "New Jersey Superior Court (state courts)",
+  "source": "R. 1:3-1 (computation of time; periods under 7 days exclude Sat/Sun/legal holidays); R. 1:3-3 as amended eff. 2022-04-01 (5 days added after service by ordinary mail); R. 1:6-3 (mail service presumed received 3rd business day after mailing); Supreme Court holiday/recess orders for court years 2025-26, 2026-27 (njcourts.gov) and 2027-28 (order of 2026-06-01). Compiled 2026-11-02 — ATTORNEY TO VERIFY before relying on it.",
+  "calendar_verified_from": "2026-01-01",
+  "calendar_verified_through": "2028-06-30",
+  "federal_holidays": true,
+  "extra_holidays": [
+    {"date": "2026-04-03", "name": "Good Friday (NJ court holiday)"},
+    {"date": "2026-11-03", "name": "General Election Day (NJ court holiday)"},
+    {"date": "2027-03-26", "name": "Good Friday (NJ court holiday)"},
+    {"date": "2027-11-02", "name": "General Election Day (NJ court holiday)"},
+    {"date": "2028-04-14", "name": "Good Friday (NJ court holiday)"},
+    {"date": "2028-06-16", "name": "Juneteenth (NJ observes the third Friday in June)"}
+  ],
+  "removed_holidays": ["2028-06-19"],
+  "uncertain_closures": [
+    {"date": "2026-11-23", "name": "Statewide Judicial College (emergent matters only)"},
+    {"date": "2026-11-24", "name": "Statewide Judicial College (emergent matters only)"},
+    {"date": "2026-11-25", "name": "Statewide Judicial College (emergent matters only)"},
+    {"date": "2026-11-27", "name": "Day after Thanksgiving (recess day in prior years, deemed a legal holiday by separate order)"},
+    {"date": "2026-12-28", "name": "Court recess (emergent matters only)"},
+    {"date": "2026-12-29", "name": "Court recess (emergent matters only)"},
+    {"date": "2026-12-30", "name": "Court recess (emergent matters only)"},
+    {"date": "2026-12-31", "name": "Court recess (emergent matters only)"},
+    {"date": "2027-11-22", "name": "Statewide Judicial College (emergent matters only)"},
+    {"date": "2027-11-23", "name": "Statewide Judicial College (emergent matters only)"},
+    {"date": "2027-11-24", "name": "Statewide Judicial College (emergent matters only)"},
+    {"date": "2027-11-26", "name": "Day after Thanksgiving (recess day in prior years, deemed a legal holiday by separate order)"},
+    {"date": "2027-12-27", "name": "Court recess (emergent matters only)"},
+    {"date": "2027-12-28", "name": "Court recess (emergent matters only)"},
+    {"date": "2027-12-29", "name": "Court recess (emergent matters only)"},
+    {"date": "2027-12-30", "name": "Court recess (emergent matters only)"}
+  ],
+  "roll_when_closed": true,
+  "exclude_weekends_holidays_if_period_under": 7,
+  "service_extra_days": {"mail": 5, "personal": 0, "electronic": 0, "other": 0},
+  "service_backward": {
+    "mail": {"days": 3, "unit": "court", "source": "R. 1:6-3 — ordinary-mail service presumed received on the 3rd business day after mailing; confirm"}
+  }
+}
